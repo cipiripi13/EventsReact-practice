@@ -1,12 +1,10 @@
 
 import './App.css';
+import { NameInput } from './components/NameInput';
 
 export function App() {
   return (
-    <>
-      <label>First Name</label>
-      <input type="text" />
-    </>
+    <NameInput/>
   )
 }
 
